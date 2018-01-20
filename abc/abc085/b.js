@@ -3,6 +3,7 @@ function Main(input) {
 	var input = input.split('\n')
 	var N = parseInt(input[0])
 	var d = input.slice(1)
+	console.log(d);
 	d = d.map(function (x) {
 	    return parseInt(x, 10); 
 	});
